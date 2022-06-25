@@ -41,7 +41,11 @@ export default function Footer() {
 				<a href="#"><i class="fab fa-github"></i></a>
 			</div>
 		</div>
+<<<<<<< Updated upstream
 	  <section>© 2022 Copyright: DataGami</section>
+=======
+		<section>© 2022 Copyright: DataGami</section>
+>>>>>>> Stashed changes
 	</footer>
   );
 }
