@@ -2,9 +2,12 @@ import './PageCss/App.css';
 import './PageCss/navbar.css';
 import './PageCss/Home.css';
 import './PageCss/Login.css';
+import './PageCss/Signup.css';
 import './PageCss/footer.css';
 import Navbar from './components/Navbar';
 import Home from './Home';
+import Login from './loginpage/login'
+import Signup from './loginpage/signup'
 import Footer from './components/Footer';
 
 // import Title from './Title'
@@ -16,9 +19,10 @@ function App() {
     <> 
  
     <Navbar/>
-    {/* <Title/> */}
+    {/* Title */}
     <Home/>
-    <RegistrationForm/>
+    <Login/>
+    <Signup/>
     <Footer/>
     
     </>
