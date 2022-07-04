@@ -10,21 +10,33 @@ import Login from './loginpage/login'
 import Signup from './loginpage/signup'
 import Footer from './components/Footer';
 
+// import AboutUs from './components/AboutUs';
+import { Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom"; 
 // import Title from './Title'
 // import TextForm from './components/TextForm';
 
 
 function App() {
   return(
-    <> 
- 
+    <>
     <Navbar/>
     {/* Title */}
     <Home/>
     <Login/>
     <Signup/>
-    <Footer/>
-    
+    <Footer/> 
+     {/* <BrowserRouter> */}
+    {/* <Routes> */}
+      <Navbar/>
+      <Home/>
+      {/* <Route path="/" element={<Home/>}> */}
+        {/* <Route path="/aboutus" element={<AboutUs/>}> */}
+        {/* </Route> */}
+      {/* </Route> */}
+      <Footer/>
+    {/* </Routes> */}
+  {/* </BrowserRouter> */}
     </>
   );
 }

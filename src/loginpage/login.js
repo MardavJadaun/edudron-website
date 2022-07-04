@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactDOM from "react-dom";
 
 function App() {
   const [errorMessages, setErrorMessages] = useState({});
@@ -45,9 +46,12 @@ function App() {
 
   const renderForm = (
     <div className="form">
-      <form onSubmit={handleSubmit} action="insert.php" method="POST">
+      <form onSubmit={handleSubmit} action="insert.php" method="POST"></form>
         <div className="input-container">
           <label>Username/UserID:</label>
+      <form onSubmit={handleSubmit}>
+        <div className="input-container">
+          <label>Username/UserID</label>
           <input type="text" name="uname" required />
           {renderErrorMessage("uname")}
         </div>
@@ -59,8 +63,15 @@ function App() {
         </div>
         <div className="button-container">
           <input type="submit" value="Login" name="" />
+          <label>Password </label>
+          <input type="password" name="pass" required />
+          {renderErrorMessage("pass")}
+        </div>
+        <div className="button-container">
+          <input type="submit" />
         </div>
       </form>
+    </div>
     </div>
   );
 
