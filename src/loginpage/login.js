@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 
 function App() {
   const [errorMessages, setErrorMessages] = useState({});
@@ -63,12 +62,6 @@ function App() {
         </div>
         <div className="button-container">
           <input type="submit" value="Login" name="" />
-          <label>Password </label>
-          <input type="password" name="pass" required />
-          {renderErrorMessage("pass")}
-        </div>
-        <div className="button-container">
-          <input type="submit" />
         </div>
       </form>
     </div>

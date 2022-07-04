@@ -63,7 +63,6 @@ function SignupForm() {
         </div>
         </div>
        
-    )       
+    );      
 }
-
-export default SignupForm;
+export default SignupForm ;
