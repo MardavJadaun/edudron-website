@@ -50,12 +50,13 @@ function App() {
           <label>Username/UserID:</label>
       <form onSubmit={handleSubmit}>
         <div className="input-container">
-          <label>Username/UserID</label>
+          <label>Username/UserID: </label>
           <input type="text" name="uname" required />
           {renderErrorMessage("uname")}
         </div>
         <div className="input-container">
           <label>Password:</label>
+          <label>Password: </label>
           <input type="password" name="pass" required />
           {renderErrorMessage("pass")}
           <label><span>Forgot Password ?</span></label>
