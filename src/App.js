@@ -6,8 +6,6 @@ import Navbar from './components/Navbar';
 import Home from './Home';
 import Footer from './components/Footer';
 // import AboutUs from './components/AboutUs';
-import { Routes, Route, Link } from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
 // import Login from './loginpage/Login';
 // import Signup from './loginpage/Signup';
 import Title from './Title'

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from "react-router-dom";
+
 // import Login from './loginpage/Login';
 // import Signup from './loginpage/Signup';
 // import { propTypes } from 'react-bootstrap/esm/Image'
@@ -12,8 +12,8 @@ export default function Navbar(props) {
     <input id="nav-toggle" type="checkbox"/>
     <div class="logo">Edu<strong>Dron</strong></div>
     <ul class="links">
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/aboutus">About</Link></li>
+      <li> Home</li>
+      <li> About</li>
 
       <li><a href="#about">Colleges</a>
         <div class='sub-nav'>
@@ -32,10 +32,10 @@ export default function Navbar(props) {
         <li className='Hover-sub-nav'><a href="#">State</a>
         <div className='sub-nav-2'>
           <ul>
-            <li><Link to="">North State</Link></li>
-            <li><Link to="">South State</Link></li>
-            <li><Link to="">North East State</Link></li>
-            <li><Link to="">North West State</Link></li>
+            <li> North State</li>
+            <li> South State</li>
+            <li> North East State</li>
+            <li> North West State</li>
           </ul>
         </div></li>
 
