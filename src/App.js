@@ -12,9 +12,10 @@ import Footer from './components/Footer';
 
 // import AboutUs from './components/AboutUs';
 import { Routes, Route, Link } from "react-router-dom";
-import  BrowserRouter from "react-router-dom"; 
-// import Title from './Title'
-// import TextForm from './components/TextForm';
+import { BrowserRouter } from "react-router-dom";
+// import Login from './loginpage/Login';
+// import Signup from './loginpage/Signup';
+import Title from './Title'
 
 
 function App() {
@@ -28,6 +29,11 @@ function App() {
     <Footer/> 
      {/* <BrowserRouter> */}
     {/* <Routes> */}
+      <Navbar/>
+      
+      <Home/>
+      {/* <Signup/> */}
+      {/* <Login/> */}
       {/* <Route path="/" element={<Home/>}> */}
         {/* <Route path="/aboutus" element={<AboutUs/>}> */}
         {/* </Route> */}
