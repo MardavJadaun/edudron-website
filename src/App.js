@@ -14,16 +14,16 @@ import Home from "./Home";
 function App() {
   return (
     < >
-      console.log(firebase)
-      <Routes>
+        console.log(firebase)
+       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/contact" element={<Signup />} />
-        <Route path="/creater" element={<DemoCreater />} /> */}
+        <Route path="/creater" element={<DemoCreater />} /> */
         {/* <Route path="/about" element={<AboutUs/>} /> */}
-        <Route
+         <Route
           path="*"
           element={
             <div>
@@ -31,7 +31,7 @@ function App() {
             </div>
           }
         />
-      </Routes>
+      </Routes>  
     </>
   );
 }

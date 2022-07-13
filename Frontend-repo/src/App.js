@@ -12,28 +12,28 @@ import Home from "./Home";
 // import AboutUs from './components/AboutUs'; // <------ {CSS issues}
 
 function App() {
-    return (
-        < >
-
-            <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route path="/home" element={<Home />} />
-                <Route path="/login" element={<Login />} />
-                <Route path="/signup" element={<Signup />} />
-                <Route path="/contact" element={<Signup />} />
-                <Route path="/creater" element={<DemoCreater />} /> */}
-                {/* <Route path="/about" element={<AboutUs/>} /> */}
-                <Route
-                    path="*"
-                    element={
-                        <div>
-                            <h2>404 Page not found etc.. </h2>
-                        </div>
-                    }
-                />
-            </Routes>
-        </>
-    );
+  return (
+    < >
+      
+       <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/contact" element={<Signup />} />
+        <Route path="/creater" element={<DemoCreater />} /> */
+        {/* <Route path="/about" element={<AboutUs/>} /> */}
+         <Route
+          path="*"
+          element={
+            <div>
+              <h2>404 Page not found etc.. </h2>
+            </div>
+          }
+        />
+      </Routes>  
+    </>
+  );
 }
 
 export default App;

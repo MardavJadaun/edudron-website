@@ -7503,7 +7503,11 @@
     "City": "VALLABH VIDYANAGAR",
     "District": "ANAND",
     "State": "Gujarat",
+<<<<<<< HEAD
     "First Name of Head of Institute": "Prof. Dr. K. M. Makwana",
+=======
+    "First Name of Head of Institute": "Prof. Dr. K. M. Makwana",
+>>>>>>> 959624725ef9c1f702a19c01a031574a10d9bcb5
     "Exact Designation of Head of Instt": "Principal",
     "Email ID of Head of Instt.": "kirit.bbit@gmail.com",
     "": "principal@bbit.ac.in",
@@ -17518,7 +17522,11 @@
     "Type of Institution": "Government",
     "Address": "AT - JAMUNALIA\nP.O. - OLD TOWN\nDIST - KEONJHAR",
     "City": "KEONJHAR",
+<<<<<<< HEAD
     "District": "KENDUJHAR (KEONJHAR)",
+=======
+    "District": "KENDUJHAR (KEONJHAR)",
+>>>>>>> 959624725ef9c1f702a19c01a031574a10d9bcb5
     "State": "Odisha",
     "First Name of Head of Institute": "TRILOCHAN SAHU",
     "Exact Designation of Head of Instt": "Principal",
