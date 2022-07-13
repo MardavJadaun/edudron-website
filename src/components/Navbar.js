@@ -8,28 +8,26 @@ import PropTypes from 'prop-types'
 export default function Navbar(props) {
   return (
     <header>
-    <nav>
     <input id="nav-toggle" type="checkbox"/>
     <div class="logo">Edu<strong>Dron</strong></div>
-    <ul class="links">
       <li> Home</li>
       <li> About</li>
 
       <li><a href="#about">Colleges</a>
         <div class='sub-nav'>
         <ul>
-        <li className='Hover-sub-nav'> <a href="#">Stream</a>
+        <li className='Hover-sub-nav'> <a href="s">Stream</a>
         <div className='sub-nav-2'>
           <ul>
-            <li><a href="">Management</a></li>
-            <li><a href="">Engineering</a></li>
-            <li><a href="">Pharmacy</a></li>
-            <li><a href="">Law</a></li>
-            <li><a href="">More</a></li>
+            <li><a href="r">Management</a></li>
+            <li><a href="a">Engineering</a></li>
+            <li><a href="m">Pharmacy</a></li>
+            <li><a href="d">Law</a></li>
+            <li><a href="v">More</a></li>
           </ul>
         </div>
         </li>
-        <li className='Hover-sub-nav'><a href="#">State</a>
+        <li className='Hover-sub-nav'><a href="h">State</a>
         <div className='sub-nav-2'>
           <ul>
             <li> North State</li>
@@ -39,14 +37,14 @@ export default function Navbar(props) {
           </ul>
         </div></li>
 
-        <li className='Hover-sub-nav'><a href="#">Courses</a>
+        <li className='Hover-sub-nav'><a href="a">Courses</a>
         <div className='sub-nav-2'>
           <ul>
-            <li><a href="">Programming</a></li>
-            <li><a href="">Maching learning</a></li>
-            <li><a href="">Data Science</a></li>
-            <li><a href="">Cyber Security</a></li>
-            <li><a href=""></a></li>
+            <li><a href="m">Programming</a></li>
+            <li><a href="a">Machine learning</a></li>
+            <li><a href="r">Data Science</a></li>
+            <li><a href="d">Cyber Security</a></li>
+            <li><a href="f">Data Analyses</a></li>
           </ul>
         </div></li>
       </ul>
@@ -55,20 +53,19 @@ export default function Navbar(props) {
       <li><a href="#Services">Services</a>
       <div class='sub-nav'>
         <ul>
-        <li><a href="#">Our Courses</a></li>
-        <li><a href="#">counselling</a></li>
-        <li><a href="#">Mentorship</a></li>
-        <li><a href="#">Training</a></li>
-        <li><a href="#">Intership</a></li>
-        <li><a href="#">Study Abroad</a></li>
-        <li><a href="#">Career</a></li>
-        <li><a href="#">More...</a></li>
+        <li><a href="m">Our Courses</a></li>
+        <li><a href="a">counselling</a></li>
+        <li><a href="r">Mentorship</a></li>
+        <li><a href="r">Training</a></li>
+        <li><a href="d">Internship</a></li>
+        <li><a href="a">Study Abroad</a></li>
+        <li><a href="v">Career</a></li>
+        <li><a href="j">More...</a></li>
         </ul>
       </div></li>
       <li><a href="#Contact Us">Contact Us</a></li>
       <button id="login" href="./loginpage/Login.js">Login</button>
       <button id='sign-up' href="#Login">Sign Up</button>
-    </ul>
     
     
     <label for="nav-toggle" className="icon-burger">
@@ -76,10 +73,8 @@ export default function Navbar(props) {
       <div class="line"></div>
       <div class="line"></div>
     </label>
-  </nav>
-  
-  </header>
-    )
+ </header>
+  );
 }
 
 

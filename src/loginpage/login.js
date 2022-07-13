@@ -1,6 +1,18 @@
 import React, { useState } from "react";
+import "../PageCss/Login.css";
 
-function App() {
+
+const Login = () => {
+  // eslint-disable-next-line no-empty-pattern
+  const [] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    address: ""
+
+  });
+
+
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -25,8 +37,7 @@ function App() {
 
     var { uname, pass } = document.forms[0];
 
-    const userData = database.find((user) => user.username === uname.value);
-
+    const userData = database.find((user) => user.username === uname.value)
     if (userData) {
       if (userData.password !== pass.value) {
         setErrorMessages({ name: "pass", message: errors.pass });
@@ -45,9 +56,6 @@ function App() {
 
   const renderForm = (
     <div className="form">
-      <form onSubmit={handleSubmit} action="insert.php" method="POST"></form>
-        <div className="input-container">
-          <label>Username/UserID:</label>
       <form onSubmit={handleSubmit}>
         <div className="input-container">
           <label>Username/UserID: </label>
@@ -55,7 +63,6 @@ function App() {
           {renderErrorMessage("uname")}
         </div>
         <div className="input-container">
-          <label>Password:</label>
           <label>Password: </label>
           <input type="password" name="pass" required />
           {renderErrorMessage("pass")}
@@ -65,7 +72,6 @@ function App() {
           <input type="submit" value="Login" name="" />
         </div>
       </form>
-    </div>
     </div>
   );
 
@@ -79,4 +85,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./PageCss/Home.css";
 import "./PageCss/subscription.css";
+import "./PageCss/button.css"
 import UpperTitle from "./homepage/UpperTitle";
 import Subscription from "./components/Subscription";
 
@@ -14,6 +15,7 @@ function Home() {
       <div className="abhi"></div>
       <div>
         <Subscription />
+        
       </div>
     </>
   );

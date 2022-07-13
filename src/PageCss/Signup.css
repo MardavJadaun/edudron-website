@@ -1,8 +1,8 @@
-body{
+body {
     background: white;
 }
 
-.sign-form{
+.sign-form {
     background-color: whitesmoke;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.form-body{
+.form-body {
     text-align: left;
 
 }
@@ -24,21 +24,21 @@ body{
     font-size: 36px;
 }
 
-.form-body > *{
+.form-body>* {
     font-size: 20px;
     display: flex;
     flex-direction: column;
     margin: 40px;
 }
 
-.form__label{
+.form__label {
     width: 50%;
 }
 
-.form_input{
+.form_input {
     width: 60%;
 }
 
-.end{
+.end {
     text-align: center;
 }

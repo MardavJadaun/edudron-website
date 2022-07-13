@@ -2,13 +2,14 @@ import './PageCss/App.css';
 import './PageCss/navbar.css';
 import './PageCss/Home.css';
 import './PageCss/footer.css';
+import './PageCss/Login.css'
+import './PageCss/Signup.css'
 import Navbar from './components/Navbar';
 import Home from './Home';
+import Signup from './loginpage/signup'
+import Login from './loginpage/login';
 import Footer from './components/Footer';
 // import AboutUs from './components/AboutUs';
-// import Login from './loginpage/Login';
-// import Signup from './loginpage/Signup';
-import Title from './Title'
 
 
 function App() {
@@ -19,12 +20,10 @@ function App() {
      {/* <BrowserRouter> */}
     {/* <Routes> */}
       <Navbar/>
-      
       <Home/>
-      {/* <Signup/> */}
-      {/* <Login/> */}
+      <Signup/>
+      <Login/>
       {/* <Route path="/" element={<Home/>}> */}
-        {/* <Route path="/aboutus" element={<AboutUs/>}> */}
         {/* </Route> */}
       {/* </Route> */}
       <Footer/>
